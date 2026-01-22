@@ -1,0 +1,33 @@
+{
+  "name": "prueba-node",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexagonal",
+    "redis",
+    "fastify",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Gestión de guías de envío con arquitectura hexagonal, Redis y Fastify",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "fastify": "^5.7.1",
+    "redis": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "@types/redis": "^4.0.11",
+    "fastify-plugin": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
