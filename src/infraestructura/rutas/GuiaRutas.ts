@@ -1,5 +1,5 @@
 import type { FastifyInstance } from 'fastify';
-import { GuiaControlador } from '../controlador/GuiaControlador';
+import { GuiaControlador } from '../controlador/GuiaControlador.js';
 
 export async function GuiaRutas(
   fastify: FastifyInstance,

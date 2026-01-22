@@ -1,4 +1,4 @@
-import EstadoGuia from "../enums/EstadoGuia";
+import EstadoGuia from "../enums/EstadoGuia.js";
 
 class Guia {
   private numeroGuia: string;

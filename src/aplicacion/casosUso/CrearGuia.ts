@@ -1,6 +1,6 @@
-import Guia from "../../dominio/entidades/Guia";
-import type { IGuiaRepositorio } from "../../dominio/repositorio/IGuiaRepositorio";
-import EstadoGuia from "../../dominio/enums/EstadoGuia";
+import Guia from "../../dominio/entidades/Guia.js";
+import type { IGuiaRepositorio } from "../../dominio/repositorio/IGuiaRepositorio.js";
+import EstadoGuia from "../../dominio/enums/EstadoGuia.js";
 
 export class CrearGuia {
   constructor(private readonly repositorio: IGuiaRepositorio) {}

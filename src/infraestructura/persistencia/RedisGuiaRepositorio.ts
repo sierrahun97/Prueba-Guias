@@ -1,6 +1,6 @@
 import type { RedisClientType } from 'redis';
-import Guia from '../../dominio/entidades/Guia';
-import type { IGuiaRepositorio } from '../../dominio/repositorio/IGuiaRepositorio';
+import Guia from '../../dominio/entidades/Guia.js';
+import type { IGuiaRepositorio } from '../../dominio/repositorio/IGuiaRepositorio.js';
 
 class RedisGuiaRepositorio implements IGuiaRepositorio {
   private redis: RedisClientType;
