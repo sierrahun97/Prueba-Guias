@@ -1,5 +1,5 @@
-import Guia from "../../dominio/entidades/Guia.js";
-import type { IGuiaRepositorio } from "../../dominio/repositorio/IGuiaRepositorio.js";
+import Guia from "../../dominio/entidades/Guia";
+import type { IGuiaRepositorio } from "../../dominio/repositorio/IGuiaRepositorio";
 
 class ListarGuias {
   constructor(private readonly repositorio: IGuiaRepositorio) {}

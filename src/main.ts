@@ -1,9 +1,9 @@
 import 'dotenv/config';
 import fastify from 'fastify';
-import crearClienteRedis from './configuracion/redisClient.js';
-import RedisGuiaRepositorio from './infraestructura/persistencia/RedisGuiaRepositorio.js';
-import { GuiaControlador } from './infraestructura/controlador/GuiaControlador.js';
-import { GuiaRutas } from './infraestructura/rutas/GuiaRutas.js';
+import crearClienteRedis from './configuracion/redisClient';
+import RedisGuiaRepositorio from './infraestructura/persistencia/RedisGuiaRepositorio';
+import { GuiaControlador } from './infraestructura/controlador/GuiaControlador';
+import { GuiaRutas } from './infraestructura/rutas/GuiaRutas';
 import type { RedisClientType } from 'redis';
 
 async function main() {

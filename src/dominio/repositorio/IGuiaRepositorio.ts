@@ -1,4 +1,4 @@
-import Guia from "../entidades/Guia.js";
+import Guia from "../entidades/Guia";
 
 export interface IGuiaRepositorio {
     crearGuia(guia: Guia): Promise<Guia>;

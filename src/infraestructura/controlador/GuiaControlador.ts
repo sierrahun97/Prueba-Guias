@@ -1,11 +1,10 @@
 import type { FastifyRequest, FastifyReply } from "fastify";
-import Guia from "../../dominio/entidades/Guia.js";
-import CrearGuia from "../../aplicacion/casosUso/CrearGuia.js";
-import ListarGuias from "../../aplicacion/casosUso/ListarGuias.js";
-import AnularGuia from "../../aplicacion/casosUso/AnularGuia.js";
-import type { IGuiaRepositorio } from "../../dominio/repositorio/IGuiaRepositorio.js";
-import FacturarGuia from "../../aplicacion/casosUso/FacturarGuia.js";
-import { HttpStatus } from "../../common/statusCode.js";
+import CrearGuia from "../../aplicacion/casosUso/CrearGuia";
+import ListarGuias from "../../aplicacion/casosUso/ListarGuias";
+import AnularGuia from "../../aplicacion/casosUso/AnularGuia";
+import type { IGuiaRepositorio } from "../../dominio/repositorio/IGuiaRepositorio";
+import FacturarGuia from "../../aplicacion/casosUso/FacturarGuia";
+import { HttpStatus } from "../../common/statusCode";
 
 export class GuiaControlador {
   private crearGuiaUseCase: CrearGuia;
